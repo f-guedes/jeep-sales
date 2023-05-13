@@ -1,0 +1,1 @@
+Repo for weeks 13-16 of Promineo Tech's backend sofware development course. An online application that uses a REST controller and the Spring Boot framework to process HTTP requests. In this example, we're simulating a Jeep sales application and database.
