@@ -1,1 +1,2 @@
-Repo for weeks 13-16 of Promineo Tech's backend sofware development course. An online application that uses a REST controller and the Spring Boot framework to process HTTP requests. In this example, we're simulating a Jeep sales application and database.
+Repo for weeks 13-16 of Promineo Tech's backend sofware development course. An online microservice (a **REST** service) that performs CRUD operations on a MySQL database using the Spring Boot Framework. In this example, we're simulating a Jeep sales application and database. 
+This application is documented using the OpenAPI documentation standard format and includes a test environment that employs the Spring REST Client, _RestTemplate_.
