@@ -45,4 +45,9 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/io/swagger/core/v3/swagger-models/2.2.9/swagger-models-2.2.9.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/webjars/swagger-ui/4.18.2/swagger-ui-4.18.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/boot/spring-boot-starter-jdbc/2.7.11/spring-boot-starter-jdbc-2.7.11.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-jdbc/5.3.27/spring-jdbc-5.3.27.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-tx/5.3.27/spring-tx-5.3.27.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>
