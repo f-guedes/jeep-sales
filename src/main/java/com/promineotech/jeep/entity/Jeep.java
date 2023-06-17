@@ -19,10 +19,10 @@ public class Jeep {
   private int wheelSize;
   private BigDecimal basePrice;
 
-  @JsonIgnore
-  public Long getModelPk() {
-    return modelPK;
-  }
+//  @JsonIgnore
+//  public Long getModelPk() {
+//    return modelPK;
+//  }
   
 }
 
