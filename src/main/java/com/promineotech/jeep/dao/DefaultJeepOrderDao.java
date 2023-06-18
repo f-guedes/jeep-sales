@@ -67,30 +67,6 @@ public class DefaultJeepOrderDao implements JeepOrderDao {
 
   /**
    * 
-   * @param option
-   * @param orderPK
-   * @return
-   */
-  private SqlParams generateInsertSql(Option option, Long orderPK) {
-    SqlParams params = new SqlParams();
-    
-    // @formatter:off
-    params.sql = ""
-        + "INSERT INTO order_options ("
-        + "option_fk, order_fk"
-        + ") VALUES ("
-        + ":option_fk, :order_fk"
-        + ")";
-    // @formatter:on
-    
-    params.source.addValue("option_fk", option.getOptionPK());
-    params.source.addValue("order_fk", orderPK);
-    
-    return params;
-  }
-
-  /**
-   * 
    * @param customer
    * @param jeep
    * @param color
@@ -119,6 +95,30 @@ public class DefaultJeepOrderDao implements JeepOrderDao {
     params.source.addValue("tire_fk", tire.getTirePK());
     params.source.addValue("model_fk", jeep.getModelPK());
     params.source.addValue("price", price);
+    
+    return params;
+  }
+
+  /**
+   * 
+   * @param option
+   * @param orderPK
+   * @return
+   */
+  private SqlParams generateInsertSql(Option option, Long orderPK) {
+    SqlParams params = new SqlParams();
+    
+    // @formatter:off
+    params.sql = ""
+        + "INSERT INTO order_options ("
+        + "option_fk, order_fk"
+        + ") VALUES ("
+        + ":option_fk, :order_fk"
+        + ")";
+    // @formatter:on
+    
+    params.source.addValue("option_fk", option.getOptionPK());
+    params.source.addValue("order_fk", orderPK);
     
     return params;
   }
